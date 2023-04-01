@@ -406,10 +406,14 @@ footer .copy{
     font-size: 10px;
 }
 .redes-sociales{
-    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
 }
+
 .redes-sociales i{
     display: flex;
     font-size: 30px;
