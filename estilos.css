@@ -324,57 +324,74 @@ html {
     bottom: 0;
 }
 
+/*SECCION CONTACTO*/
 
 #contacto{
-    
-    width: 500px;
+    width: 600px;
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./img/fondo-inicio.jpg");
-
-    padding: 20px;
+    padding: 50px 15px;
     margin: auto;
-    margin-top: 10px;
-    border-radius: 30px;
-
+    border-radius: 20px;
 }
 
-#contacto h3{
-    font-size: 30px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    margin-left: 2px;
-    margin-right: 2px;
-    color: aliceblue;
-    text-align:center;
-}
-.controles{
-    width: 100%;
-    background-color: rgb(183, 183, 221);
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    color: rgb(26, 25, 25);
-    border: 2px;
-    font-size: 18px;
-}
-#areadetexto{ width: 100%;
-    background-color: rgb(183, 183, 221);
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    color: rgb(26, 25, 25);
-    border: 2px;
-    font-size: 18px;
-}
-
-
-.boton {
+#contacto .titulo-seccion{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
     text-align: center;
-    width: 20%;
-    font-size: larger;
-    padding: 10px;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3 ;
+    text-decoration-thickness: 5px;
+}
+
+#contacto .contenedor-form{
+    max-width: 550px;
+    margin: auto;
+}
+
+#contacto .contenedor-form .fila{
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor-form .mitad{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-form input,
+#contacto .contenedor-form textarea{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191
+}
+
+#contacto .contenedor-form .mitad input {
+    width: 48%;
+}
+
+#contacto .contenedor-form .input-full{
+    margin: 15px auto;
+    width: 100%;
+}
+
+#contacto .btn-enviar{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+    padding: 10px 15px;
     border: none;
     border-radius: 4px;
-    
-    
+}
 
+#contacto .btn-enviar:hover{
+    background-color: #33FF4C;
+    color: #000;
 }

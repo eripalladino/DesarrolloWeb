@@ -24,7 +24,7 @@
                             <li><a href="#inicio" class="seleccionado">Inicio</a></li>
                             <li><a href="#nosotros">Sobre nosotros</a></li>
                             <li><a href="#servicios">Servicios</a></li>
-                            <li><a href="#Portfolio">Portfolio</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </nav>
@@ -124,7 +124,8 @@
                 <span class="icono"><i class="fa-solid fa-tag"></i></span>
                 <h4>Diseño Gráfico / Identidad Corporativa</h4>
                 <hr>
-                <p>Diseño de logo y marca de tu empresa. Slogan publicitario, estrategias de marketing. Evaluación de impacto visual.
+                <p>Diseño de logo y marca de tu empresa. Slogan publicitario, estrategias de marketing. Evaluación de
+                    impacto visual.
                 </p>
             </div>
         </div>
@@ -213,21 +214,28 @@
         </div>
     </section>
 
-    <!--formulario de contacto-->  
-
-        <section id="contacto">
-            
-            <h3>Para contactarte con nosotros</h3>
-            <input class="controles" type="text" name="Nombre" id="nombre" placeholder="Nombre">
-            <input class="controles" type="text" name="apellido" id="apellido" placeholder="Apellido">
-            <input class="controles" type="email" name="e-mail" id="e-mail" placeholder="e-mail">
-            <input class="controles" type="text" name="asunto" id="asunto" placeholder="Asunto">
-        
-            <textarea name="Mesaje" id="areadetexto" cols="70" rows="10"
-                placeholder="Escriba su mensaje aqui"></textarea>
-
-            <input class="boton" type="submit" value="Enviar">
-        </section>
+    <!--FORMULARIO DE CONTACTO-->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input class="input-mitad" type="text" name="Nombre" id="nombre" placeholder="Nombre">
+                    <input class="input-mitad" type="text" name="apellido" id="apellido" placeholder="Apellido">
+                   
+                </div>
+                <div class="fila">
+                    <input class="input-full" type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <input class="input-full" type="text" name="asunto" id="asunto" placeholder="Asunto">
+                </div>
+                <div class="fila">
+                    <textarea name="Mesaje" id="areadetexto" cols="30" rows="10"
+                        placeholder="Escriba su mensaje aqui" class="input-full"></textarea>
+                </div>
+                <input class="btn-enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
 
 </body>
 
