@@ -395,3 +395,23 @@ html {
     background-color: #33FF4C;
     color: #000;
 }
+
+/* FOOTER */
+
+
+footer .copy{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+.redes-sociales{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.redes-sociales i{
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+}
