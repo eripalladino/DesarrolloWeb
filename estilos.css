@@ -60,6 +60,10 @@ html {
     color: #33FF4C;
 }
 
+#inicio .contenido header .contenido-header .seleccionado {
+    color: #33FF4C;
+}
+
 #inicio .contenido header .contenido-header .redes a{
     text-decoration: none;
     color: #fff;
@@ -299,7 +303,6 @@ html {
     width: 350px;
     height: 200px;
     filter: grayscale(1);
-    object-fit: cover;
     transition: .5s;
 }
 
@@ -418,4 +421,102 @@ footer .copy{
     display: flex;
     font-size: 30px;
     padding: 20px;
+}
+
+/* SECCION RESPONSIVE */
+
+@media screen and (max-width: 800px){
+    .redes{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    nav.responsive{
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+
+    #icono-nav{
+        display: block;
+    }
+
+    #inicio .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+
+    #nosotros{
+        padding: 50px 0;
+        display: block;
+    }
+
+    #nosotros .contenedor-foto{
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #nosotros .contenedor-foto img {
+        padding: 8px;
+    }
+
+    #nosotros .nosotros .titulo-seccion {
+        text-align: center;
+    }
+
+    #nosotros .nosotros h2, h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #servicios{
+        padding: 50px 15px;
+    }
+
+    #servicios .fila{
+        display: block;
+        max-width: max-content;
+    }
+
+    #servicios .fila .servicio{
+        margin: 10px auto;
+    }
+
+    #portfolio .fila{
+        display: block;
+    }
+
+    #portfolio .fila .proyecto{
+        margin: 10px auto;
+    }
+    
+    #contacto {
+        padding: 50px 15px;
+    }
+
+    #contacto .contenedor-form .mitad{
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    #contacto .contenedor-form .mitad input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
 }
